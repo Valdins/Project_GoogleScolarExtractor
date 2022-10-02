@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <title>Chat - Link Checker</title>
+</head>
+
+<body>
+    <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="selection.html">Back</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="manual.html">Manual-Test</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historyManual.html">History</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="true" href="chatManual.html">Chat</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body">
+          
+            <!-- CHAT Section-->
+            <section>
+                <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-6">
+            
+                    <div class="card" id="chat2">
+                    <div class="card-header d-flex justify-content-between align-items-center p-3">
+                        <h1 class="mb-0">Chat.</h1>
+                    </div>
+                    <div id="chatMainBody" class="card-body overflow-auto" style="height: 300px">
+                        <!-- Chat messages goes here -->
+                    </div>
+                    <div class="card-footer text-muted d-flex justify-content-start align-items-center p-3">
+                        <input type="text" class="form-control form-control-lg" id="chatMessageTextInput" placeholder="Type message">
+                        <button id="sendMessageBtn" class="btn btn-primary">Send</button>
+                    </div>
+                    </div>
+            
+                </div>
+                </div>
+            </section>
+           
+        </div>
+    </div>
+    <script src="../js/saveProgress.js"></script>
+    <script src="../js/chat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+
+  "name": "FormTester",
+  "description": "Link Checker",
+  "version": "1.0",
+  "permissions": ["scripting","tabs","storage"],
+  "host_permissions": ["<all_urls>"],
+
+  "action": {
+      "default_title": "Click Me",
+      "default_popup": "html/popup.html"
+  },
+  "background":{
+    "service_worker": "background.js"
+  }
+}

@@ -1,0 +1,91 @@
+html,
+body {
+  width: 420px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: auto;
+}
+
+#indicators {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #999;
+}
+
+#repo-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#adelphi_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 30%;
+}
+
+#adelphi_logo_img {
+  width: 100%;
+}
+
+.input-group {
+  margin:20px;
+}
+
+#name_input {
+  width: 90%;
+}
+
+#main_popup {
+  margin:20px;
+}
+
+#AutoTestSelection{
+  width: 50%;
+}
+
+/* Question history */
+.Flagged {
+  color: red;
+}
+
+/* CHAT */
+#chat2 .form-control {
+  border-color: transparent;
+  }
+  
+  #chat2 .form-control:focus {
+  border-color: transparent;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+  }
+  
+  .divider:after,
+  .divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  }
+
+  /* Download page */
+
+  #goToExportPage {
+    background-color: #008380;
+    border: none;
+  }
+
+  /* Popup page */
+
+  #pText {
+    color: #a4a4a4;
+    font-size: 10px;
+    margin-top: 10px;
+  }
