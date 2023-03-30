@@ -1,7 +1,7 @@
 console.log("Content Script");
 
 let webpage_link = window.location.toString();
-if(webpage_link.includes("survey.euro.confirmit.com") == true){
+if(webpage_link.includes("webpage") == true){
 
     let current_title = document.getElementsByTagName("h1").item(0).id;
     console.log("Current title: " + current_title);
